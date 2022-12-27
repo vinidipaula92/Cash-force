@@ -3,6 +3,7 @@ const express = require('express');
 const cors = require('cors');
 require('express-async-errors');
 const errorHandlerMiddleware = require('./middlewares/errorHandler');
+const receiptRoute = require('./routes/receipt.route');
 // const swaggerJSDoc = require('swagger-jsdoc');
 // const swaggerConfig = require('./docs/swagger.config');
 // const swaggerUi = require('swagger-ui-express');
@@ -14,7 +15,7 @@ app.use(express.json());
 // const swaggerDoc = swaggerJSDoc(swaggerConfig);
 // app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerDoc));
 
-// app.use('/users', userRoute);
+app.use('/receipt', receiptRoute);
 app.use(errorHandlerMiddleware);
 
 app.listen(process.env.API_PORT, () =>

@@ -1,4 +1,3 @@
-/* eslint-disable max-lines-per-function */
 const { DataTypes } = require('sequelize');
 
 const attributes = {

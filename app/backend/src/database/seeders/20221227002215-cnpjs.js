@@ -1,4 +1,3 @@
-/* eslint-disable camelcase */
 /** @type {import('sequelize-cli').Migration} */
 const dateTime = '2020-10-29 21:20:33';
 module.exports = {

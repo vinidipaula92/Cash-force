@@ -1,6 +1,5 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
-  // eslint-disable-next-line max-lines-per-function, react-func/max-lines-per-function
   async up(queryInterface, Sequelize) {
     await queryInterface.createTable('sponsors', {
       id: {

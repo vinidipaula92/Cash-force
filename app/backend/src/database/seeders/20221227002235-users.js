@@ -1,4 +1,3 @@
-/* eslint-disable camelcase */
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, _Sequelize) {

@@ -1,7 +1,3 @@
-/* eslint-disable camelcase */
-/* eslint-disable react-func/max-lines-per-function */
-/* eslint-disable max-lines-per-function */
-
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, _Sequelize) {
