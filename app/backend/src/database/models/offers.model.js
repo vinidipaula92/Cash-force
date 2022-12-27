@@ -28,11 +28,11 @@ module.exports = (sequelize) => {
   model.associate = (models) => {
     model.belongsTo(models.order, {
       foreignKey: 'orderId',
-      as: 'order',
+      as: 'orderOffer',
     });
     model.belongsTo(models.sponsor, {
       foreignKey: 'sponsorId',
-      as: 'sponsor',
+      as: 'sponsorUser',
     });
   };
   return model;

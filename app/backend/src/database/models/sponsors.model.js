@@ -42,11 +42,11 @@ module.exports = (sequelize) => {
   model.associate = (models) => {
     model.belongsTo(models.cnpj, {
       foreignKey: 'cnpjId',
-      as: 'cnpj',
+      as: 'cnpjSponsor',
     });
     model.hasMany(models.offer, {
       foreignKey: 'sponsorId',
-      as: 'offers',
+      as: 'offersSponsor',
     });
   };
   return model;

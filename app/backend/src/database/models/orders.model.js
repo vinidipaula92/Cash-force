@@ -38,19 +38,19 @@ module.exports = (sequelize) => {
   model.associate = (models) => {
     model.belongsTo(models.user, {
       foreignKey: 'userId',
-      as: 'user',
+      as: 'userName',
     });
     model.belongsTo(models.buyer, {
       foreignKey: 'buyerId',
-      as: 'buyer',
+      as: 'buyerName',
     });
     model.belongsTo(models.provider, {
       foreignKey: 'providerId',
-      as: 'provider',
+      as: 'providerName',
     });
     model.belongsTo(models.cnpj, {
       foreignKey: 'cnpjId',
-      as: 'cnpj',
+      as: 'cnpjName',
     });
   };
   return model;

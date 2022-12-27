@@ -11,6 +11,11 @@ const options = {
     timezone: 'Z',
   },
   logging: false,
+  define: {
+    timestamps: true,
+    underscored: true,
+    underscoredAll: true,
+  },
 };
 
 module.exports = {

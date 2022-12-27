@@ -39,7 +39,7 @@ module.exports = (sequelize) => {
   model.associate = (models) => {
     model.belongsTo(models.cnpj, {
       foreignKey: 'cnpjId',
-      as: 'cnpj',
+      as: 'userCnpj',
     });
   };
   return model;

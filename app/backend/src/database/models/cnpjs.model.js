@@ -20,15 +20,15 @@ module.exports = (sequelize) => {
   model.associate = (models) => {
     model.hasMany(models.buyer, {
       foreignKey: 'cnpjId',
-      as: 'buyers',
+      as: 'cnpjBuyers',
     });
     model.hasMany(models.provider, {
       foreignKey: 'cnpjId',
-      as: 'providers',
+      as: 'cnpjProviders',
     });
     model.hasMany(models.order, {
       foreignKey: 'cnpjId',
-      as: 'orders',
+      as: 'cnpjOrders',
     });
   };
   return model;

@@ -23,7 +23,7 @@ module.exports = (sequelize) => {
   model.associate = (models) => {
     model.belongsTo(models.order, {
       foreignKey: 'orderId',
-      as: 'order',
+      as: 'orderUserPortion',
     });
   };
   return model;
