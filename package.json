@@ -1,0 +1,17 @@
+{
+  "name": "cashforce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-config-trybe-backend": "^2.1.0",
+    "eslint-config-trybe-frontend": "^1.3.1"
+  }
+}
