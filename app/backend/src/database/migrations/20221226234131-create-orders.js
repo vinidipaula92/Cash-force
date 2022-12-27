@@ -44,10 +44,7 @@ module.exports = {
         type: Sequelize.STRING(255),
         field: 'n_nf',
       },
-      CTE: {
-        type: Sequelize.STRING(255),
-        field: 'cte',
-      },
+      cte:Sequelize.STRING(255),
       value: Sequelize.STRING(255),
       createdAt: {
         type: Sequelize.DATE,

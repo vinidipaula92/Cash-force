@@ -16,7 +16,7 @@ const attributes = {
   pdfFile: DataTypes.STRING(255),
   emitedTo: DataTypes.STRING(255),
   nNf: DataTypes.STRING(255),
-  CTE: DataTypes.STRING(255),
+  cte: DataTypes.STRING(255),
   value: DataTypes.STRING(255),
   cnpjId: DataTypes.INTEGER,
   userId: DataTypes.INTEGER,
