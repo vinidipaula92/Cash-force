@@ -4,11 +4,11 @@
     "colId": "e1c9b748-6856-4c48-8c86-e921f24223e3",
     "containerId": "9f3c9eb4-87db-42a1-b439-bc6f287ad3e8",
     "name": "getReceipt",
-    "url": "http://localhost:3001/receipt/18153",
+    "url": "http://localhost:3001/receipt",
     "method": "GET",
     "sortNum": 10000,
     "created": "2022-12-27T01:35:24.196Z",
-    "modified": "2022-12-27T20:48:17.227Z",
+    "modified": "2023-01-02T19:04:04.402Z",
     "headers": [],
     "params": [],
     "tests": []
