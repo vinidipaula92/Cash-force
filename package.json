@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "start:backend": "cd app && npm run start:backend",
+    "start:frontend": "cd app && npm run start:frontend"
   },
   "keywords": [],
   "author": "",
