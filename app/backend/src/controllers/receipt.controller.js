@@ -2,8 +2,7 @@ const receiptService = require('../services/receipt.service');
 
 const receiptController = {
   getReceipt: async (req, res) => {
-    const { orderNumber } = req.params;
-    const receipt = await receiptService.getReceipt(orderNumber);
+    const receipt = await receiptService.getReceipt();
     res.json(receipt);
   },
 };

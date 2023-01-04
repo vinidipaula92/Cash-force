@@ -3,6 +3,6 @@ const receiptController = require('../controllers/receipt.controller');
 
 const router = Router();
 
-router.get('/:orderNumber', receiptController.getReceipt);
+router.get('/', receiptController.getReceipt);
 
 module.exports = router;
